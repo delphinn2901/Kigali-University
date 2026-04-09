@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student List</title>
+    <link rel="stylesheet" href="css/lecture.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="top-link">
+                <a href="home.html"><img src="IMG/LOGO.png" alt="kigali university"></a>
+            </div>
+            <ul>
+                <li><a href="lecturer.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="mycourse.html"><i class="fa-solid fa-book"></i> My Courses</a></li>
+                <li><a href="studentlist.html"><i class="fa-solid fa-users"></i> Student List</a></li>
+                <li class="logout"><a href="#"><i class="fa-solid fa-right-from-bracket"></i> Log out</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main -->
+        <main class="main">
+            <h1>Student List</h1>
+            <div class="prof">
+                <p>Eng. Alice Tshisekedi</p>
+                <img src="IMG/pro.png" alt="">
+            </div>
+            <hr><br><br>
+            <!-- Search -->
+            <div class="search-box">
+                <input type="text" placeholder="Search by ID or Name">
+                <button>Search</button>
+            </div>
+
+            <div class="card">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Student ID</th>
+                            <th>Full Name</th>
+                            <th>Department</th>
+                            <th>Course</th>
+                            <th>Reg Status</th>
+                            <th>Finance</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>202420001</td>
+                            <td>Mucyo Remy</td>
+                            <td>Computer Science</td>
+                            <td>CS101</td>
+                            <td><span class="status verified">Verified</span></td>
+                            <td class="paid">Paid</td>
+
+                        </tr>
+                        <tr>
+                            <td>202420002</td>
+                            <td>Uwase Alice</td>
+                            <td>Information Technology</td>
+                            <td>CS101</td>
+                            <td><span class="status not">Not Verified</span></td>
+                            <td class="not-paid">Not Paid</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>

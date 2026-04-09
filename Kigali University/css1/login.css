@@ -1,0 +1,150 @@
+Page background and font
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("../bg.jpg"); 
+  background-size: cover;    
+   background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+} */
+
+/* Center the login content */
+.login-wrapper {
+  width: 320px;
+  margin: 60px auto;
+  text-align: center;
+}
+.login-wrapper .primg img{
+  width: 100px;
+  height: 100px;
+}
+
+
+.top-link img{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+/* Tabs (Admin Lecturer Student) */
+.tabs {
+  margin-left: 1100px;
+  margin-top: -90px;
+
+  padding: 5px 4px 5px;
+}
+
+.tab {
+  flex: 1;
+  border: none;
+  font-family: Inria Sans;
+  background: transparent;
+  font-size: 18px;
+  padding: 20px;
+  cursor: pointer;
+  color: #000;
+}
+.login-wrapper{
+  width: 400px;
+  height: 550px;
+  border: 2px solid #D9D9D9; 
+  padding: 25px;
+  border-radius: 23px;   
+  background-color: #D9D9D9;
+}
+.login-wrapper .login-form{
+    margin-top: 40px;
+    width: 350px;
+}
+.tabs a{
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+} */
+
+.tabs .tab.active a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #E5AD05;
+  font-size: 3000px;
+}
+
+/* Forgot password */
+.forgot {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.forgot a {
+  text-decoration: none;
+  color: #4D4D4D;
+  font-size: 14px;
+}
+.forgot a:hover{
+  color: #000;
+}
+
+/* Form inputs */
+.login-form {
+  text-align: left;
+}
+
+.login-form label {
+  display: block;
+  margin: 10px 0 6px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.login-form input,select {
+  width: 100%;
+  padding: 10px;
+  border-top: 2px solid #E5AD05;
+  border-left: 2px solid #E5AD05;
+  border-right: 2px solid #E5AD05;
+  border-bottom: 2px solid #E5AD05;
+  border-radius: 4px;
+  /* background: transparent; */
+  outline: none;
+}
+
+/* Login | Sign up */
+.links {
+  /* margin: 15px 0; */
+  text-align: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: #E5AD05;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.links span {
+  margin: 0 8px;
+  font-size: 23px;
+  color: #444;
+}
+
+/* Login button */
+.login-btn {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  background: #E5AD05;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 115px;
+  margin-top: 15px;
+}
+
+
+.login-btn:hover {
+  background: #000;
+}

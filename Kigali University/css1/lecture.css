@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+}
+.top-link img{
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 260px;
+    background: #E5AD05;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+
+    
+
+}
+
+.sidebar ul li {
+    padding: 12px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+.sidebar ul li a:hover{
+    color: #fff;
+}
+
+
+.sidebar .logout {
+    margin-top: 400px;
+    background:  #d9b64b;
+}
+
+/* Main */
+.main {
+    flex: 1;
+    padding: 30px;
+}
+/* 
+.main .prof img{
+    width: 55px;
+    height: 60px;
+    margin-left: 1100px;
+    margin-top: -50px;
+}
+.main .prof p{
+    margin-left: 900px;
+    font-weight: bold;
+}
+
+.main .prof i{
+    font-size: 30px;
+    margin-top: -10px;
+    margin-left: 20px;
+} */
+
+/* Header */
+.page-header h1 {
+    color: #0f172a;
+}
+
+.course {
+    margin-top: 5px;
+    color: #475569;
+}
+
+/* Search */
+.search-box {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #cbd5f5;
+    border-radius: 6px;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    border: none;
+    background: #E5AD05;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Card */
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+}
+
+table th {
+    background: #f8fafc;
+}
+
+/* Status */
+.status {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.status.verified {
+    background: #16a34a;
+}
+
+.status.not {
+    background: #dc2626;
+}
+
+.paid {
+    color: #16a34a;
+    font-weight: bold;
+}
+
+.not-paid {
+    color: #dc2626;
+    font-weight: bold;
+}
